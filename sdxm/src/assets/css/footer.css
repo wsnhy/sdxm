@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	/*font-size: 100px;*/
+	/*1vw = 3.75px
+	?vw = 100px
+	? = 100/3.75 = 26.67*/
+	font-size: 26.67vw;
+}
+body{
+	font-family:"微软雅黑",Arial;
+    background: white;
+	 /* display: -webkit-flex;
+	-webkit-flex-direction:column; */
+	
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	padding: 0.05rem 0;
+	background: white;
+
+}
+	
+.footer_ul{
+	width: 100%;
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.ftul_ul li img{
+    display: block;
+    width: 0.22rem;
+    height: 0.22rem;;
+    color: black;
+}
+.ftul_ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ftul_ul li{
+    font-size: 0.12rem;
+ 
+}
+.ftul_ul li:nth-child(2){ 
+    margin-top: 0.08rem;
+}

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	/*font-size: 100px;*/
+	/*1vw = 3.75px
+	?vw = 100px
+	? = 100/3.75 = 26.67*/
+	font-size: 26.67vw;
+}
+body{
+	font-family:"微软雅黑",Arial;
+    background: white;
+	 display: -webkit-flex;
+	-webkit-flex-direction:column;
+	
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+/* 第一部分头部 */
+.header{
+    height: 0.46rem;
+    background: #00bbd7;
+    display: flex;
+    align-items: center;
+    /* padding: 0 0.12rem; */
+}
+.header a{
+font-size: 0.2rem;
+color: white;
+display: block;
+width: 4%;
+text-align: center
+
+}
+.header h2{
+    font-size: 0.20rem;
+    color: white;
+    width: 96%;
+    text-align: center
+       
+}
+/* <!-- 第二部分图片展示 --> */
+.boximg img{
+    display: block;
+    width: 100%;
+    
+}
+/* <!-- 第三部分全球热卖 --> */
+.hot{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #f5f5f5;
+    position: relative;
+}
+.hot span:nth-child(1){
+    left: 50%;
+    top: 24px;
+    margin-left: -70px;
+    display: inline-block;
+    height: 1px;
+    width: 40px;
+    background: black;
+    position: absolute;
+
+}
+.hot p{
+    font-size: 0.12rem;
+    color: #313131;
+}
+.hotspan{
+    right: 50%;
+    top: 24px;
+    margin-right: -70px;
+    display: inline-block;
+    height: 1px;
+    width: 40px;
+    background: black;
+    position: absolute
+}
+/* 商品 */
+/* 3.1 */
+.hot_goods{
+    padding: 0.12rem;
+}
+.goodsul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.goodsul li{
+   width: 33%;
+   margin-bottom: 0.12rem;
+   background: white;
+}
+.goodsul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.goodsul li a img{
+    display: block;
+    width: 0.58rem;
+    height: 0.72rem;
+   
+
+}
+.goodsul li a p{
+    font-size: 0.12rem;
+    
+    
+}
+.goodsul li a p:last-child{
+    color: red;
+}
+/* <!-- 第五部分导航 --> */
+.nav{
+    height: 0.48rem;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul li a{
+    display: block;
+    font-size: 0.12rem;
+    padding: 0.15rem;
+    
+  
+}
+.nav ul li a:hover{
+    color: #00bbd7;
+    border-bottom:1px solid #00bbd7;
+}
+/* 第六部分 */
+/* 6.3 */
+.goods{
+    margin-top: 0.14rem;
+}
+.gul{
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.gul li{
+    width: 50%;
+ 
+    box-sizing: border-box;
+   
+    
+}
+.gul_liul{
+    width: 100%;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    border-right:none;
+    
+}
+.gul_liul li{
+    width: 100%;
+    font-size: 0.12rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+   
+}
+.gul_liul li p{
+    height: 0.42rem;
+    overflow: hidden;
+    line-height: 0.21rem;
+}
+.gul_liul li:last-child{
+    display: flex;
+    justify-content: space-between;
+    color: #00bbd7;
+}
+.last{
+    background: #00bbd7;
+    color: white;
+    padding: 0.08rem;
+}
+.gul_liul li img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+/* 最后一部分 */
+.gul-two{
+    margin-top: 0.12rem;
+}
+.gul-two li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.3rem;
+}
+.gul-two li a{
+    display: block;
+font-size: 0.12rem;
+color: black;
+}
+/* 圣杯 */
+.connent{
+    overflow-y: auto;
+    flex: 1;
+}

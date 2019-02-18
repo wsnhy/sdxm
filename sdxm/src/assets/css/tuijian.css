@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	/*font-size: 100px;*/
+	/*1vw = 3.75px
+	?vw = 100px
+	? = 100/3.75 = 26.67*/
+	font-size: 26.67vw;
+}
+body{
+	font-family:"微软雅黑",Arial;
+    background: white;
+	 display: -webkit-flex;
+	-webkit-flex-direction:column;
+	
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+/* 第一部分头部 */
+.header{
+    height: 0.46rem;
+    background: #00bbd7;
+    display: flex;
+    align-items: center;
+    padding: 0 0.12rem;
+}
+.header a{
+font-size: 0.2rem;
+color: white;
+display: block;
+width: 4%;
+text-align: center
+
+}
+.header h2{
+    font-size: 0.2rem;
+    color: white;
+    width: 96%;
+    text-align: center;
+}
+/* <!-- 第二部分图片展示 --> */
+.boximg img{
+    display: block;
+    width: 100%;
+    
+}
+/* <!-- 第三部分商品展示 --> */
+.goods{
+    margin-top: 0.14rem;
+}
+.gul{
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.gul li{
+    width: 50%;
+    box-sizing: border-box;
+   
+    
+}
+/* 1.1 */
+.gul_liul{
+    width: 100%;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    border-right:none;
+    
+}
+.gul_liul li{
+    width: 100%;
+    font-size: 0.12rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+   
+}
+.gul_liul li p{
+    height: 0.42rem;
+    overflow: hidden;
+    line-height: 0.21rem;
+}
+.gul_liul li:last-child{
+    display: flex;
+    justify-content: space-between;
+    color: #00bbd7;
+}
+.last{
+    background: #00bbd7;
+    color: white;
+    padding: 0.08rem;
+}
+.gul_liul li img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+/* 三-2 */
+.gul-two{
+    margin-top: 0.12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gul-two li{
+  width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.3rem;
+}
+.gul-two li:last-child{
+  width: 100%;
+}
+.gul-two li a{
+  display: block;
+font-size: 0.12rem;
+color: black;
+}
+/* <!-- 第四个部分footer --> */
+.footer{
+
+	display: flex;
+	align-items: center;
+	padding: 0.05rem 0;
+	background: white;
+
+}
+	
+.footer_ul{
+	width: 100%;
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.ftul_ul li img{
+    display: block;
+    width: 0.22rem;
+    height: 0.22rem;;
+    color: black;
+}
+.ftul_ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ftul_ul li{
+    font-size: 0.12rem;
+ 
+}
+.ftul_ul li:nth-child(2){ 
+    margin-top: 0.08rem;
+}
+/* <!-- 圣杯布局 --> */
+.connent{
+    overflow-y: auto;
+    flex: 1;
+}

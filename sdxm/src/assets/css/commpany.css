@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	/*font-size: 100px;*/
+	/*1vw = 3.75px
+	?vw = 100px
+	? = 100/3.75 = 26.67*/
+	font-size: 26.67vw;
+}
+body{
+	font-family:"微软雅黑",Arial;
+    background: white;
+	 display: -webkit-flex;
+	-webkit-flex-direction:column;
+	
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+/* 第一部分头部 */
+.header{
+    height: 0.46rem;
+    background: #00bbd7;
+    display: flex;
+    align-items: center;
+    padding: 0 0.12rem;
+}
+.header a{
+font-size: 0.2rem;
+color: white;
+display: block;
+width: 4%;
+text-align: center
+
+}
+.header h2{
+    font-size: 0.20rem;
+    color: white;
+    width: 96%;
+    text-align: center
+       
+}
+/* <!-- 第二部分图片展示 --> */
+.boximg img{
+    display: block;
+    width: 100%;
+}
+/* <!-- 第三部分快速选购 --> */
+.choose h2{
+    font-size: 0.16rem;
+    padding: 0.12rem;
+
+}
+/* <!-- 3.2部分导航 --> */
+.nav{
+    height: 0.48rem;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul li a{
+    display: block;
+    font-size: 0.12rem;
+    padding: 0.15rem;
+    
+}
+.nav ul li a:hover{
+    color: #00bbd7;
+    border-bottom:1px solid #00bbd7;
+}
+/* 3.3 */
+.boxa ul{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+    
+    align-items: center;
+    padding: 0.12rem;
+    background: #eeee;
+}
+.boxa ul li{
+    box-sizing: border-box;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.boxa ul li a{
+   padding: 0.18rem;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+
+}
+.boxa ul li a img{
+    display: block;
+    width: 0.6rem;
+    height: 0.54rem;
+}
+.boxa ul li a span{
+    font-size: 0.14rem;
+    white-space: nowrap;
+}
+/* <!-- 第四部分 --> */
+.chul {
+    width: 100%;
+}
+.chul li a img{
+    display: block;
+    width: 100%;
+}
+/* 第五部分场景选购 */
+
+.gul{
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.gul li{
+    width: 50%;
+    box-sizing: border-box;
+     
+}
+.gul_liul{
+    width: 100%;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    border-right:none;
+    
+}
+.gul_liul li{
+    width: 100%;
+    font-size: 0.12rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+   
+}
+.gul_liul li p{
+    height: 0.42rem;
+    overflow: hidden;
+    line-height: 0.21rem;
+}
+.gul_liul li:last-child{
+    display: flex;
+    justify-content: space-between;
+    color: #00bbd7;
+}
+.last{
+    background: #00bbd7;
+    color: white;
+    padding: 0.08rem;
+}
+.gul_liul li img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* <!-- 第六部分合作伙伴 --> */
+.sixbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid #dddddd;
+    border-left:  1px solid #dddddd;
+    box-sizing: border-box;
+}
+.sixbox li{
+    width: 33%;
+    border: 1px solid #dddddd;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+}
+.sixbox li a img{
+    width: 100%;
+    display: block;
+}
+/* <!-- 第七部分售后服务 --> */
+.scene{
+    background: url(../images/g20.png) no-repeat center;
+    background-size: 2rem 1.5rem;
+    background-position: 1.7rem;
+    padding: 0.12rem;
+}
+.scene ul li{
+    font-size: 0.12rem;
+    color: black;
+    height: 0.2rem;
+    line-height: 0.2rem;
+}
+.scene ul li:nth-child(6){
+    margin-top: 0.12rem;
+    font-size: 0.16rem;
+    color: #48adfb;
+}
+.scene ul li:nth-child(7){
+    font-size: 0.18rem;
+    color: #48adfb;
+}
+/* 最后一部分 */
+.gul-two{
+    margin-top: 0.12rem;
+}
+.gul-two li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.3rem;
+}
+.gul-two li a{
+    display: block;
+font-size: 0.12rem;
+color: black;
+}
+/* 圣杯 */
+.connent{
+    overflow-y: auto;
+    flex: 1;
+}

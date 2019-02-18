@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	/*font-size: 100px;*/
+	/*1vw = 3.75px
+	?vw = 100px
+	? = 100/3.75 = 26.67*/
+	font-size: 26.67vw;
+}
+body{
+	font-family:"微软雅黑",Arial;
+    background: white;
+	  display: -webkit-flex;
+	-webkit-flex-direction:column;
+	
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+/* <!-- 第一部分头部 --> */
+header{
+    height: 0.5rem;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.header_one{
+    width: 4%;
+    display: block;
+    font-size: 0.24rem;
+    color: black;
+    line-height: 0.5rem;
+}
+.top{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    /* display: flex; */
+    /* justify-content: space-around; */
+    
+}
+.top a{
+   
+    width: 20%;
+    display: block;
+    font-size: 0.15rem;
+    color: black;
+    line-height: 0.5rem;
+    white-space: nowrap;
+    text-align: center;
+}
+/* <!-- 第二部分商品展示轮播图 --> */
+.inner{
+border-bottom: 1px solid #999999;
+}
+.inner img{
+    display: block;
+    width: 100%;
+}
+/* <!-- 第三部分产品详情 --> */
+.informa ul {
+    padding: 0.2rem;
+    border-bottom: 1px solid #999999;
+    
+}
+.informa ul li{
+font-size: 0.13rem;
+color: red;
+height: 0.2rem;
+line-height:0.2rem;
+}
+.informa ul li:first-child{
+    color: black;
+    margin-bottom: 0.2rem;
+}
+.informa ul li:last-child{
+    color: #999999;
+    font-size: 0.15rem;
+    margin-top: 0.2rem;
+}
+/* <!-- 第四部分优惠信息 --> */
+.sale{
+    padding: 0.12rem;
+    border-bottom: 1px solid #999999;
+}
+.sale ul li:first-child{
+    font-size: 0.13rem;
+    color: red;
+    border: 1px solid red;
+    padding: 0.06rem;
+    width: 0.62rem;
+}
+.sale ul li:last-child{
+    display: flex;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.sale ul li:last-child p{
+    font-size: 0.13rem;
+    color: white;
+    background: #f0b16e;
+    padding: 0.04rem;
+    width: 0.45rem;
+    height: 0.2rem;
+    text-align: center;
+}
+.sale ul li:last-child span{
+    font-size: 0.12rem;
+    color: #99a5c2;
+    margin-left: 0.08rem;
+}
+/* <!-- 第五部分货物信息 --> */
+.cargo{
+    padding: 0.12rem;
+
+}
+.cargo ul li{
+    display: flex;
+    font-size: 0.14rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    
+}
+.cargo ul li span:first-child{
+    width: 20%;
+    color: #999999;
+}
+.cargo ul li span:last-child{
+margin-left: 0.2rem;
+}
+    
+/* <!-- 第六部分评价 --> */
+.apprise{
+    display: flex;
+
+}
+.apprise a{
+    font-size: 0.12rem;
+    display: block;
+    width: 50%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #e9e9e9;
+    border-right: none;
+}
+.apprise_bottom{
+    height: 0.8rem;
+    margin-top: 0.2rem;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    
+}
+/* 第七部分 */
+.gul-two{
+
+}
+.gul-two li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.3rem;
+}
+.gul-two li a{
+    display: block;
+font-size: 0.12rem;
+color: black;
+}
+/* <!-- 最后一部分底部 --> */
+.footer ul{
+    display: flex;
+    
+}
+.footer ul li{
+    width: 20%;
+    height: 0.36rem;
+}
+.footer ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* line-height: 0.52rem; */
+    
+  
+}
+
+.footer ul li a img{
+display: block;
+width: 0.2rem;
+height: 0.2rem;
+}
+.footer ul li a span{
+    font-size: 0.11rem;
+    display: block;
+}
+.footer ul li:nth-child(4) a{
+    font-size: 0.12rem;
+    background: #0199b0;
+    color: white;
+    line-height: 0.36rem;
+ 
+   height: 0.36rem;
+    
+    
+}
+.footer ul li:nth-child(5) a{
+    font-size: 0.12rem;
+    background: red;
+    color: white;
+    height: 0.36rem;
+    line-height: 0.36rem;
+  
+}
+/*圣杯布局*/
+.connent{
+  height: 100%;
+  overflow-y: auto;
+  flex: 1;
+}

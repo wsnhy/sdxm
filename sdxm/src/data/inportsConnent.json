@@ -1,0 +1,215 @@
+{
+  "arr": [
+    {
+    "img": "f2",
+    "p1": "韩国 三星洗衣机",
+    "p2": "￥9690.00"
+  },   {
+      "img": "f3",
+      "p1": "韩国 三星洗衣机",
+      "p2": "￥9690.00"
+    },   {
+      "img": "f4",
+      "p1": "韩国 三星洗衣机",
+      "p2": "￥9690.00"
+    }, {
+      "img": "f3",
+      "p1": "韩国 三星洗衣机",
+      "p2": "￥9690.00"
+    },   {
+      "img": "f4",
+      "p1": "韩国 三星洗衣机",
+      "p2": "￥9690.00"
+    }
+  ],
+  "country": ["美国","日本","德国","英国","泰国"],
+  "index": [
+    {
+      "img": "../static/images/62.jpg",
+      "class": "goods",
+      "span": "商品分类"
+    },
+    {
+      "img": "../static/images/63.jpg",
+      "class": "tuijian",
+      "span": "好友推荐"
+    },
+    {
+      "img": "../static/images/64.jpg",
+      "class": "imports",
+      "span": "进口"
+    },
+    {
+      "img": "../static/images/65.jpg",
+      "class": "commpany",
+      "span": "企业购"
+    },
+    {
+      "img": "../static/images/66.jpg",
+      "class": "",
+      "span": "寻宝专区"
+    },
+    {
+      "img": "../static/images/67.jpg",
+      "class": "shoop",
+      "span": "门店"
+    },{
+      "img": "../static/images/68.jpg",
+      "class": "",
+      "span": "以旧换新"
+    },
+    {
+      "img": "../static/images/69.jpg",
+      "class": "",
+      "span": "新机租聘"
+    },
+    {
+      "img": "../static/images/70.jpg",
+      "class": "",
+      "span": "家电医院"
+    },
+    {
+      "img": "../static/images/71.jpg",
+      "class": "",
+      "span": "手机"
+    }
+  ],
+  "indext": [
+
+       "../static/images/01.jpg",
+    "../static/images/02.jpg",
+    "../static/images/03.jpg",
+    "../static/images/04.jpg",
+    "../static/images/05.jpg"
+  ],
+  "indexf": [
+    {
+      "imd": "../static/images/52.jpg",
+      "name":"荣耀",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/73.jpg",
+      "name":"小米",
+      "na": "Note8",
+      "nb": "￥3099",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/74.jpg",
+      "name":"华为",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/52.jpg",
+      "name":"荣耀",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/52.jpg",
+      "name":"荣耀",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/52.jpg",
+      "name":"荣耀",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    },
+    {
+      "imd": "../static/images/52.jpg",
+      "name":"荣耀",
+      "na": "Note10",
+      "nb": "￥3199",
+      "nc": "3399"
+    }
+
+  ],
+  "tuijian": [
+  {
+    "ti": "../static/images/51.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/53.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/52.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/54.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/55.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/54.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/52.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  },
+  {
+    "ti": "../static/images/53.jpg",
+    "lia": "ViVO&nbsp;X23&nbsp;全网通",
+    "lib": "8+128G",
+    "lic": "￥3199"
+  }
+],
+  "seven": [
+    {
+      "lia": "潮流",
+      "lib": "家",
+      "lic":"品质生活",
+      "simg": "../static/images/80.png"
+    },
+    {
+      "lia": "NEW",
+      "lib": "家",
+      "lic":"品质生活",
+      "simg": "../static/images/81.png"
+    },
+    {
+      "lia": "奢华",
+      "lib": "家",
+      "lic":"品质生活",
+      "simg": "../static/images/82.png"
+    },
+    {
+      "lia": "奢华",
+      "lib": "家",
+      "lic":"品质生活",
+      "simg": "../static/images/83.png"
+    }
+
+  ]
+}
+

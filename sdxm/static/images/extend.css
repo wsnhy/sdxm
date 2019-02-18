@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.search{
+	margin:8px 18% 13px 12%;
+}
+
+.nooverflow{
+	overflow-y:hidden;
+	height:100%;
+}
+
+.pt-filter{
+	overflow-y:scroll;
+	height:100%;
+}
